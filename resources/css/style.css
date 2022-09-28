@@ -1,4 +1,67 @@
-.navbar {
-    background-color: lightseagreen
-    color:blue;
+body {
+background-color: aqua;
 }
+
+.about {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+}
+#profile-pic {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    filter: drop-shadow();
+    margin: 10px;
+    padding: 20px;
+
+
+
+}
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+
+}
+.imagesize {
+    height: 300px;
+    width: 400px;
+    padding: 10px
+
+
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  .contact {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: DodgerBlue;
+  }
+  .link {
+    padding: 10px;
+    margin: 20px;
+  }

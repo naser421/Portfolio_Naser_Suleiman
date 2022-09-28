@@ -69,3 +69,13 @@ ul {
     padding: 10px;
     margin: 20px;
   }
+  @media screen and (max-width: 400px) {
+    footer {
+      flex-wrap: wrap;
+    }
+  }
+  @media screen and (max-width: 400px) {
+    #gettoknow {
+      flex-wrap: wrap;
+    }
+  }
